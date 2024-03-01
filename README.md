@@ -1,5 +1,7 @@
 # govtech-csg-xcg-dangerousfunctions
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8503/badge)](https://www.bestpractices.dev/projects/8503)
+
 This package belongs to the **eXtended Code Guardrails (XCG)** project, which consists of a series of packages that harden the Django web framework to prevent common web application vulnerabilities.
 
 Specifically, the Dangerous Functions package contains a Django application that nullifies the effects of unsafe Python or Django functions, and logs all invocations of dangerous functions by default. Disabling dangerous functions in Python and Django is an effective way to eradicate Remote Code Execution (RCE), Cross-Site Sripting (XSS) and SQL injection (SQLi) vulnerabilities.
