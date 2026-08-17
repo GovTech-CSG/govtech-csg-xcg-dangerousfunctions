@@ -1,18 +1,12 @@
 # govtech-csg-xcg-dangerousfunctions
 
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8503/badge)](https://www.bestpractices.dev/projects/8503)
-
 This package belongs to the **eXtended Code Guardrails (XCG)** project, which consists of a series of packages that harden the Django web framework to prevent common web application vulnerabilities.
 
 Specifically, the Dangerous Functions package contains a Django application that nullifies the effects of unsafe Python or Django functions, and logs all invocations of dangerous functions by default. Disabling dangerous functions in Python and Django is an effective way to eradicate Remote Code Execution (RCE), Cross-Site Sripting (XSS) and SQL injection (SQLi) vulnerabilities.
 
-*Do note that the README in this repository is intentionally limited in scope and is catered towards developers. For detailed instructions on installation, usage, and community guidelines, please refer to the published documentation at https://xcg.tech.gov.sg.*
+~~*Do note that the README in this repository is intentionally limited in scope and is catered towards developers. For detailed instructions on installation, usage, and community guidelines, please refer to the published documentation at https://xcg.tech.gov.sg.*~~
 
-## Security-related matters
-
-For instructions on how to **report a vulnerability**, refer to the [official documentation website](https://xcg.tech.gov.sg/community/vulnerabilities).
-
-Additionally, **enable email alerts for security issues by "watching" this repository**. The "watch" button can be found near the top right corner of this repo's home page, and there are various options for configuring notification volume. To receive security alerts, either enable notifications for **"All Activity"** or **"Custom -> Security alerts"**.
+*Note: Due to low usage and lack of manpower, XCG is no longer being actively maintained. The documentation website, originally at `https://xcg.tech.gov.sg`, has been taken down. That said, you are free to use the code as-is, and the user-specific documentation that used to be hosted on the website can be found in `USAGE.md`.*
 
 ## Installing development dependencies
 
